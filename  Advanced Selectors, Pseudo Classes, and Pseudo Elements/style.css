@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+
+}
+
+h1 {
+    color: aquamarine;
+}
+
+a {
+    color: antiquewhite;
+}
+
+a :hover {
+    color: green;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+h1 + p {
+    background-color: darkblue;
+}
+
+ul li:hover {
+    color: chartreuse;
+}
+
+ul li:nth-child(3) {
+    background-color: midnightblue;
+}
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li ::before {
+    content: "🚀";
+}
+
+a::after {
+    content: "🌌";
+}
+
+p::first-letter {
+    color: orange;
+    font-size: 200%
+}
+#p1::first-letter {
+    color: seashell;
+    font-size: 200%;
+}
